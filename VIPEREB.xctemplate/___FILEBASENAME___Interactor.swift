@@ -8,7 +8,7 @@
 
 import Foundation
 
-class ___VARIABLE_ModuleName___Interactor: ___VARIABLE_ModuleName___InteractorInputProtocol {
+final class ___VARIABLE_ModuleName___Interactor: ___VARIABLE_ModuleName___InteractorInputProtocol {
 
     // MARK: Properties
     weak var presenter: ___VARIABLE_ModuleName___InteractorOutputProtocol?
@@ -18,5 +18,9 @@ class ___VARIABLE_ModuleName___Interactor: ___VARIABLE_ModuleName___InteractorIn
 }
 
 extension ___VARIABLE_ModuleName___Interactor: ___VARIABLE_ModuleName___RemoteDataManagerOutputProtocol {
+    // TODO: Implement use case methods
+}
+
+extension ___VARIABLE_ModuleName___Interactor: ___VARIABLE_ModuleName___LocalDataManagerOutputProtocol {
     // TODO: Implement use case methods
 }
