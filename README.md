@@ -1,6 +1,8 @@
 # IOS VIPER TEMPLATE
 ## Template description
 
+**This template was created using protocols approach**
+
 Files included:
 
 - View
