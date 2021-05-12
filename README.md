@@ -12,6 +12,14 @@ Files included:
 - Presenter
 - Router
 
+## DataManager
+
+In this template, I use two extra files that work with the Interactor (RemoteDataManager, LocalDataManager), and with this files you can have separation between local data and remote data
+
+- RemoteDataManager - This File was created to use when you have to do Api Callbacks or any remote call to get data
+- LocalDataManager - This File was created to use when you have a DataBase as CoreData, Realm, etc. then you can get data with this file
+
+
 ## Connections
 
 - View -> Presenter
