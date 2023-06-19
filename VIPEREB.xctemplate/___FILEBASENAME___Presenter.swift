@@ -10,16 +10,17 @@ import Foundation
 
 class ___VARIABLE_ModuleName___Presenter: ___VARIABLE_ModuleName___PresenterProtocol  {
 
+    // MARK: - Internal Methods
+
     func viewDidLoad() {
 
     }
 
-    // MARK: Properties
+    // MARK: - Internal Properties
+
     weak var view: ___VARIABLE_ModuleName___ViewProtocol?
     var interactor: ___VARIABLE_ModuleName___InteractorInputProtocol?
     var router: ___VARIABLE_ModuleName___RouterProtocol?
-
-    // MARK: Private
 }
 
 extension ___VARIABLE_ModuleName___Presenter: ___VARIABLE_ModuleName___InteractorOutputProtocol {

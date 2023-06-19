@@ -9,6 +9,8 @@
 import Foundation
 
 class ___VARIABLE_ModuleName___LocalDataManager:___VARIABLE_ModuleName___LocalDataManagerInputProtocol {
-    var remoteRequestHandler: ___VARIABLE_ModuleName___LocalDataManagerOutputProtocol?
 
+    // MARK: - Internal Properties
+
+    var remoteRequestHandler: ___VARIABLE_ModuleName___LocalDataManagerOutputProtocol?
 }

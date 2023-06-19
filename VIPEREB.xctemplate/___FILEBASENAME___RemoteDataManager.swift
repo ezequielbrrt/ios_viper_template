@@ -10,6 +10,7 @@ import Foundation
 
 class ___VARIABLE_ModuleName___RemoteDataManager:___VARIABLE_ModuleName___RemoteDataManagerInputProtocol {
     
+    // MARK: - Internal Properties
+
     var remoteRequestHandler: ___VARIABLE_ModuleName___RemoteDataManagerOutputProtocol?
-    
 }

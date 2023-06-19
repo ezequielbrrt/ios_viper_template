@@ -10,7 +10,8 @@ import Foundation
 
 final class ___VARIABLE_ModuleName___Interactor: ___VARIABLE_ModuleName___InteractorInputProtocol {
 
-    // MARK: Properties
+    // MARK: - Internal Properties
+
     weak var presenter: ___VARIABLE_ModuleName___InteractorOutputProtocol?
     var localDatamanager: ___VARIABLE_ModuleName___LocalDataManagerInputProtocol?
     var remoteDatamanager: ___VARIABLE_ModuleName___RemoteDataManagerInputProtocol?

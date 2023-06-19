@@ -28,10 +28,13 @@ class ___VARIABLE_ModuleName___Router: ___VARIABLE_ModuleName___RouterProtocol {
         interactor.localDatamanager = localDataManager
         interactor.remoteDatamanager = remoteDataManager
         remoteDataManager.remoteRequestHandler = interactor
+        localDataManager.remoteRequestHandler = interactor
         router.view = view
         
         return view
     }
-    
+
+    // MARK: - Internal Properties
+
     weak var view: ___VARIABLE_ModuleName___View?
 }

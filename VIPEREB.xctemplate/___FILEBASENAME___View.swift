@@ -16,10 +16,11 @@ class ___VARIABLE_ModuleName___View: UIViewController {
         presenter?.viewDidLoad()
     }
     
-    // MARK: Properties
+    // MARK: - Internal Properties
+
     var presenter: ___VARIABLE_ModuleName___PresenterProtocol?
 }
 
 extension ___VARIABLE_ModuleName___View: ___VARIABLE_ModuleName___ViewProtocol {
-    // TODO: implement view output methods
+
 }

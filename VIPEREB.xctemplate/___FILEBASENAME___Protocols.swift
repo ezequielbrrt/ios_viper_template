@@ -23,22 +23,18 @@ protocol ___VARIABLE_ModuleName___InteractorOutputProtocol: AnyObject {
 }
 
 protocol ___VARIABLE_ModuleName___RemoteDataManagerInputProtocol: AnyObject {
-    // INTERACTOR -> REMOTEDATAMANAGER
     var remoteRequestHandler: ___VARIABLE_ModuleName___RemoteDataManagerOutputProtocol? { get set }
 }
 
 protocol ___VARIABLE_ModuleName___RemoteDataManagerOutputProtocol: AnyObject {
-    // REMOTEDATAMANAGER -> INTERACTOR
 }
 
 protocol ___VARIABLE_ModuleName___LocalDataManagerInputProtocol: AnyObject {
-    // INTERACTOR -> DATAMANAGER
     var remoteRequestHandler: ___VARIABLE_ModuleName___LocalDataManagerOutputProtocol? { get set }
 }
 
 
 protocol ___VARIABLE_ModuleName___LocalDataManagerOutputProtocol: AnyObject {
-    // DATAMANAGER -> INTERACTOR
 }
 
 protocol ___VARIABLE_ModuleName___PresenterProtocol: AnyObject {
